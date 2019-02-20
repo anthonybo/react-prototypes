@@ -28,7 +28,7 @@ module.exports = {
                 test: /\.(gif|png|jpe?g|svg)$/i,
                 use: [ 'file-loader?hash=sha512&digest=hex&name=[hash].[ext]',
                     'image-webpack-loader?bypassOnDebug' ]
-            }
+            },
         ]
     },
     plugins: [
